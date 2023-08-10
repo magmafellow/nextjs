@@ -1,5 +1,5 @@
 function Romanov() {
-	return <h1>Romanov</h1>
+	return <div><h2>By magmafellow</h2><p>Kuznetsk 58 reg</p></div>
 }
 
 export default Romanov
