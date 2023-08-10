@@ -3,5 +3,5 @@ export default async function handler(req, res) {
 		'https://baconipsum.com/api/?type=meat-and-filler'
 	)
 	const lorem = await response.json()
-	res.status(200).json({ data: lorem })
+	res.status(200).json({ data: lorem, type: typeof lorem })
 }
